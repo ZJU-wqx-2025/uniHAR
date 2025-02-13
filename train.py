@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 2020/9/16 11:22
-# @Author  : Huatao
-# @Email   : 735820057@qq.com
-# @File    : train.py
-# @Description :
+
 import copy
 import os
 import time
