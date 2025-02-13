@@ -8,21 +8,21 @@ Additionally, we introduce LLM-driven data synthesis, which enhances the trainin
 
 ## 📌 Installation
 
-1. Clone the repo into a local folder.
+1. **Clone the repo into a local folder.**
 
 ```bash
 git clone https://github.com/ZJU-wqx-2025/uniHAR.git
 cd uniHAR
 ```
 
-2. Create and activate the conda environment.
+2. **Create and activate the conda environment.**
 
 ```bash
 conda create -n uniHAR python=3.12 -y
 conda activate uniHAR
 ```
 
-3. Install the required packages.
+3. **Install the required packages.**
 
 ```bash
 pip install torch==2.3.0+cu121 -f https://download.pytorch.org/whl/torch_stable.html
@@ -40,13 +40,13 @@ pip install scikit-learn==1.0
 
 The test folder contains the test sets for five widely used datasets in previous HAR studies:
 
-- **HHAR**
-- **Pamap2**
-- **RealworldHAR**
-- **USC-HAD**
-- **UCI-HAR**
+- HHAR
+- Pamap2
+- RealworldHAR
+- USC-HAD
+- UCI-HAR
 
-**Data**: A numpy array of shape `(B * N * T * C)`, where:
+-**Data**: A numpy array of shape `(B * N * T * C)`, where:
 - **B** is the batch size
 - **N** is the number of sensors (located at different positions)
 - **T** is the number of time steps
@@ -61,13 +61,13 @@ Each dataset folder contains its respective `"data_X_Y.npy"` and `"label_X_Y.npy
 
 ## 🛠 Usage
 
-1. Set environment variables.
+1. **Set environment variables.**
 ```bash
 export HF_ENDPOINT=https://hf-mirror.com
 ```
-2. Execute test command.
+2. **Execute test command.**
 
-You can run the test.py script with the following command:
+You can run the `test.py` script with the following command:
 ```bash
 python -u test.py v1 HHAR 50_120 -f hhar
 ```
