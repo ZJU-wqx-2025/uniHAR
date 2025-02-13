@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 2020/9/16 11:22
-# @Author  : Huatao
-# @Email   : 735820057@qq.com
-# @File    : utils.py
-# @Description :
-
 import argparse
 
 from scipy.special import factorial
