@@ -3,6 +3,8 @@
 We introduce **uniHAR**, an LLM-assisted universal HAR system designed to achieve "one model to fit them all"—just one model that can adapt to diverse HAR datasets without any dataset-specific operation.
 In particular, we propose **Cross-Dataset Neural Network (CDNet)** for the “one model”, which models both the temporal context and spatial relationships of IMU data to capture cross-dataset representations, encompassing differences in device, participant, data collection position and environment, etc.
 Additionally, we introduce LLM-driven data synthesis, which enhances the training process by generating virtual IMU data through three carefully designed strategies. Furthermore, LLM-assisted adaptive position processing optimizes the inference process by handling variable number and combination of positional inputs.
+![1111](https://github.com/user-attachments/assets/c2512ea0-0f11-4114-a2c1-b4432376d20f)
+
 
 ## 📌 Installation
 
