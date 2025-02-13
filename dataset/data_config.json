@@ -1,0 +1,58 @@
+{
+    "HHAR_50_120": {
+        "sr": 50,
+        "seq_len": 120,
+        "dimension": 3,
+        "activity_label_index": 0,
+        "activity_label_size": 6,
+        "activity_label": [
+            "cycling", "sitting", "downstairs", "upstairs", "standing", "walking"
+        ],
+        "size": 257
+    },
+    "Pamap2_50_120": {
+        "sr": 50,
+        "seq_len": 120,
+        "dimension": 3,
+        "activity_label_index": 0,
+        "activity_label_size": 9,
+        "activity_label": [
+            "cycling", "sitting", "downstairs", "upstairs", "standing", "walking", "lying", "running", "jumping"
+        ],
+        "size": 3599
+    },
+    "Realworld_50_120": {
+        "sr": 50,
+        "seq_len": 120,
+        "dimension": 3,
+        "activity_label_index": 0,
+        "activity_label_size": 8,
+        "activity_label": [
+            "sitting", "downstairs", "upstairs", "standing", "walking", "lying", "running", "jumping"
+        ],
+        "size": 16565
+    },
+    "UCI-HAR_50_120": {
+        "sr": 50,
+        "seq_len": 120,
+        "dimension": 3,
+        "activity_label_index": 0,
+        "activity_label_size": 6,
+        "activity_label": [
+            "sitting", "downstairs", "upstairs", "standing", "walking", "lying"
+        ],
+        "size": 7352
+    },
+    "USC-HAD_50_120": {
+        "sr": 50,
+        "seq_len": 120,
+        "dimension": 3,
+        "activity_label_index": 0,
+        "activity_label_size": 7,
+        "activity_label": [
+            "sitting", "downstairs", "upstairs", "standing", "walking", "running", "jumping"
+        ],
+        "size": 4111
+    }
+}
+
