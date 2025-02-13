@@ -1,4 +1,4 @@
-# One Model to Fit Them All: Universal Human Activity Recognition with LLM-assisted Cross-dataset Representation 🚀
+# uniHAR 🚀
 
 We introduce **uniHAR**, an LLM-assisted universal HAR system designed to achieve "one model to fit them all"—just one model that can adapt to diverse HAR datasets without any dataset-specific operation.
 In particular, we propose **Cross-Dataset Neural Network (CDNet)** for the “one model”, which models both the temporal context and spatial relationships of IMU data to capture cross-dataset representations, encompassing differences in device, participant, data collection position and environment, etc.
